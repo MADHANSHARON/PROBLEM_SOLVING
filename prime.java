@@ -1,20 +1,22 @@
-import java.util.Scanner;
-
+/**
+ * prime
+ */
 public class prime {
-    public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        System.out.println("enter");
-        int n=s.nextInt();
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(i%j==0){
-                    break;
-                }
-                if(i==j){
-                    System.out.println(i);
-                }
-            }
+    public static void check(int n){
+        int flag=0;
+        for (int i=2;i<=n/2;i++){
+           if(n%i==0){
+            flag=flag+1;
+           }
         }
-           
+        if(flag==0){
+            System.out.println(" prime");
+        }
+        else{
+            System.out.println(" not prime");
+        }
+    }
+    public static void main(String[] args) {
+        check(20);
     }
 }
