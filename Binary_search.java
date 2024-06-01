@@ -1,5 +1,5 @@
 
-class binary {
+class Binary_search {
 	
 	int binarySearch(int arr[], int l, int r, int x)
 	{
@@ -25,7 +25,7 @@ class binary {
 
 		public static void main(String args[])
 	{
-		binary ob = new binary();
+		Binary_search ob = new Binary_search();
 
 		int arr[] = { 2, 3, 4, 10, 40 };
 		int n = arr.length;
