@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Second_MAXIMUM_ {
     public static void max(int arr[]){
