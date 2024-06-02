@@ -1,17 +1,21 @@
+
+
 import java.util.*;
 
 
  class additionarr {
+    
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
+        
+        Scanner sa=new Scanner(System.in);
         System.out.println("enter size");
-        int se=s.nextInt();
+        int se=sa.nextInt();
         int [] a=new int[se];
         System.out.println("enter array elements");
         
         int r=se-1;
         for (int i=0;i<se;i++){
-             a[i]=s.nextInt();
+             a[i]=sa.nextInt();
         }
         int b=a[r]+1;
         int []newarr=new int[se];
